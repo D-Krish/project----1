@@ -1,0 +1,609 @@
+/* Index html */
+/*landing page 1st & 2nd s*/
+
+/*Hero Image*/
+.fist2page-container {
+    position: relative;
+    height: 1800px;
+    width: auto;
+    margin: 0;
+
+
+}
+
+@media(min-width: 990px) {
+    .heroimage {
+        object-fit: cover;
+        object-position: right 2px top -8px;
+
+    }
+}
+
+@media(max-width: 990px) {
+    .heroimage {
+        object-fit: cover;
+        object-position: right 20% bottom 20px;
+    }
+}
+
+/*end of Hero Image*/
+
+
+.container1 {
+
+    height: 1800PX;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(127deg, white 20%, white, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 50%, white 0, white 0);
+}
+
+
+/*Nav Bar*/
+.navbar {
+    position: absolute;
+    z-index: 3;
+
+}
+
+@media(min-width: 990px) {
+    .navbar-nav a {
+        font-size: 20px;
+        font-family: 'Fira Sans', sans-serif;
+        color: #22577A;
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+@media(min-width: 990px) {
+    .navbar-nav .active {
+        border-bottom: 5px solid #80ED99;
+
+    }
+}
+
+.A {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media(max-width: 990px) {
+    .A:hover {
+        background-color: #38a3a59f;
+
+    }
+}
+
+@media(max-width: 990px) {
+    .Nav-dropdown {
+        background-color: #ffffff;
+
+    }
+}
+
+/*End of Nav Bar*/
+
+
+/*landing page 1st*/
+.LandingPageIcon {
+    float: right;
+    margin-top: 140px;
+    margin-right: -20px;
+}
+
+.EX-Rate {
+    background-color: #22577A;
+    width: 70px;
+    height: 180px;
+    border-color: #22577A;
+    border-radius: 50px 0px 0px 50px;
+    margin-bottom: 120px;
+}
+
+.iconbutton {
+    border: none;
+    background-color: #22577a00;
+}
+
+.iconify:hover {
+    animation-name: scale-up-center;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+
+@keyframes scale-up-center {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ic {
+    animation-name: vibrate-1;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+
+@keyframes vibrate-1 {
+    0% {
+        transform: translate(0);
+    }
+
+    30% {
+        transform: translate(-2px, 2px);
+    }
+}
+
+/*end of landing page 1st*/
+/*landing page 2nd*/
+.container2 {
+    position: absolute;
+    top: 47%;
+    justify-content: end;
+
+
+}
+
+.promo1 {
+    position: relative;
+    top: 200px;
+    right: -1800px;
+    ;
+    height: 430px;
+    margin: auto;
+    animation: tourpost1 30s linear -6s infinite forwards;
+}
+
+@keyframes tourpost1 {
+    0% {
+        transform: translate(-50, -50);
+    }
+
+    10% {
+        transform: translate(-80, -50);
+    }
+
+    50% {
+        transform: translate(-200px, -500px);
+    }
+
+    55% {
+        transform: translate(-200px, -500px);
+    }
+
+    100% {
+        transform: translate(-2200px, -10px);
+    }
+}
+
+.promo2 {
+    position: relative;
+    top: 200px;
+    right: -800px;
+    height: 430px;
+    margin: auto;
+    animation: tourpost2 20s linear -1s infinite forwards;
+
+}
+
+@keyframes tourpost2 {
+    0% {
+        transform: translate(-50, -50);
+    }
+
+    10% {
+        transform: translate(-80, -50);
+    }
+
+    50% {
+        transform: translate(-600px, -100px);
+    }
+
+    100% {
+        transform: translate(-1500px, -300px);
+    }
+}
+
+.promo3 {
+    position: relative;
+    top: 200px;
+    right: -80px;
+    height: 430px;
+    margin: auto;
+    animation: tourpost3 20s linear -6s infinite forwards;
+}
+
+@keyframes tourpost3 {
+    0% {
+        transform: translate(-50, -50);
+    }
+
+    50% {
+        transform: translate(-600px, -200px);
+    }
+
+    100% {
+        transform: translate(-1600px, -300px);
+    }
+}
+
+.C {
+    position: relative;
+    left: 45vw;
+}
+
+@media(max-width: 600px) {
+    .C {
+        position: relative;
+        left: 36vw;
+        margin-bottom: 20px;
+    }
+}
+
+/*end of landing page 2nd*/
+
+/*Sri Lanka highlights*/
+
+
+@media(min-width: 990px) {
+    .carouselset {
+        margin-top: -11%;
+    }
+}
+
+@media(max-width: 990px) {
+    .carouselset {
+        margin-top: -62%;
+        margin-bottom: 10%;
+    }
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+
+}
+
+@media(min-width: 990px) {
+    .card-img-top {
+        height: 400px;
+    }
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+@media(min-width: 990px) {
+
+    .carousel-control-next {
+        right: -65px
+    }
+
+    .carousel-control-prev {
+        left: -65px;
+    }
+}
+
+.carousel-indicators button {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: #0a0a0a !important;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators button.active {
+
+    background-color: #22577A !important;
+}
+
+/*End of Sri Lanka highlights*/
+
+/* Contactus */
+
+.contactUs {
+    background-color: #22577A;
+    margin-top: 5%;
+    padding: 25px;
+}
+
+.contactUs h1,
+.contactUs p {
+    font-family: 'Fira Sans', sans-serif;
+    color: #C7F9CC;
+    text-align: center;
+}
+
+/* End of Contactus */
+/* End of Index html */
+
+
+
+
+/*About Us Html*/
+
+/* About Us page background layout */
+.AboutUsbg {
+    height: 55.5vw;
+    background: linear-gradient(140deg, rgb(255, 255, 255) 60%, rgb(255, 255, 255), rgba(143, 38, 38, 0.027) 0, rgba(68, 10, 10, 0) 65%);
+
+}
+
+@media(max-width: 600px) {
+    .AboutUsbg {
+        height: 280vw;
+        width: auto;
+        background: linear-gradient(140deg, rgb(255, 255, 255) 40%, rgb(255, 255, 255), rgba(255, 253, 253, 0) 0, rgba(68, 10, 10, 0) 65%);
+    }
+}
+
+@media(max-width: 900px) and (min-width: 600px) {
+    .AboutUsbg {
+        height: 380vw;
+        width: auto;
+        background: linear-gradient(140deg, rgb(255, 255, 255) 20%, rgb(255, 255, 255), rgba(255, 253, 253, 0) 0, rgba(68, 10, 10, 0) 65%);
+    }
+}
+
+.background-image {
+    object-fit: fill;
+    object-position: 40px 0px;
+    width: 100%;
+    height: 48.1vw;
+    position: absolute;
+    Bottom: 0%;
+}
+
+@media(max-width: 990px) {
+    .background-image {
+        object-fit: fill;
+        position: absolute;
+        Bottom: 0%;
+        height: 90vw;
+    }
+}
+
+/* End of About Us page background layout */
+
+/* About Us page Nav Bar addtional style */
+@media(max-width: 990px) {
+    .B {
+        display: none;
+    }
+}
+
+@media(min-width: 990px) {
+    .B {
+        position: absolute;
+        left: 80vw;
+        top: 2.5vw;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+/* End of About Us page Nav Bar addtional style  */
+/* About Us page Body content */
+.AboutUsBody {
+    margin-top: 11vw;
+    display: block;
+
+}
+
+.AboutUsBody h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #38A3A5;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.AboutUsBody p {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000000;
+
+
+}
+
+.AboutUstext {
+    margin-right: 50%;
+    padding-left: 4%;
+}
+
+.AboutUstext p:first-child {
+    margin-right: -45%;
+}
+
+@media(max-width: 900px) {
+    .AboutUsBody p {
+        font-size: small;
+        text-align: left;
+    }
+
+    .AboutUstext {
+        padding: 1%;
+        margin-right: 35%;
+    }
+
+}
+
+/* End of About Us page Body content */
+/*End of About Us Html*/
+
+/*Tour Packages Html*/
+
+.Bookingpagetitle {
+    font-family: 'Fira Sans', sans-serif;
+    color: #38A3A5;
+    margin-top: 12vw;
+}
+
+@media(max-width: 900px) {
+    .booking-detailbox2 {
+        flex-direction: column-reverse;
+    }
+}
+
+.booking-detailbox,
+.booking-detailbox2 {
+    height: auto;
+    background-color: #c7f9cc41;
+    border-radius: 2%;
+    margin-top: 25px;
+}
+
+.booking-image {
+    object-fit: fill;
+    margin: 10px;
+}
+
+.booking-info {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 5px;
+}
+
+.btn-booking {
+    background-color: #57CC99;
+    border: #38A3A5 8px solid;
+    height: auto;
+    width: auto;
+    border-radius: 25px / 17px;
+    font-size: 20px;
+    color: #22577A;
+    text-align: center;
+}
+
+.btn-booking:hover {
+    background-color: #22577A;
+    color: white;
+}
+
+/*End of Tour Packages Html*/
+
+
+/* Booking html */
+.bg-booking {
+    position: relative;
+    object-fit: cover;
+    height: auto;
+    background: linear-gradient(-220deg, rgb(255, 255, 255) 70%, rgb(255, 255, 255), rgba(143, 38, 38, 0) 0, rgba(68, 10, 10, 0) 65%);
+    overflow-y: hidden;
+}
+
+.booking-bg-image {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    height: 75%;
+    z-index: -1;
+
+}
+
+.booking-heading-box {
+    margin-top: 11%;
+}
+
+.booking-heading {
+    font-family: 'Fira Sans', sans-serif;
+    color: #38A3A5;
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+.booking-detail p {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000000;
+    padding: 25px;
+}
+
+.D {
+    margin-bottom: 15%;
+}
+
+.input-group {
+    background-color: white;
+    border: 5px #38A3A5 solid;
+    border-radius: 100px 100px 0px 100px;
+}
+
+.input-group-text {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+
+.form-control {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: bold;
+}
+
+.form-select {
+    border: 5px #22577A solid;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: bold;
+    border-radius: 0px 100px 100px 100px;
+    background-color: #22577A;
+    color: #ffffff;
+}
+
+.your-message {
+    border: 5px #38A3A5 solid;
+    height: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-style: bold;
+
+}
+
+@media (max-width:500px) {
+    .booking-form {
+        width: 100%;
+    }
+
+    .your-message {
+        height: 100px;
+    }
+
+    .bg-booking {
+        height: 300vw;
+
+    }
+}
+
+@media (max-width:500px)(max-width:1000px) {
+    .bg-booking {
+        height: 300%;
+    }
+}
+
+.contactdetail {
+    border: 5px #22577A solid;
+    background-color: #22577A;
+    border-radius: 0px 100px 100px 100px;
+
+}
+
+.contactdetail .input-group-text {
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+
+/* End of Booking html */
